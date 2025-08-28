@@ -20,17 +20,13 @@ A fun **Streamlit + LangChain + Ollama** project that generates fancy restaurant
    cd restaurant-name-generator
 Create virtual environment & install dependencies:
 
-bash
-Copy
-Edit
+
 python -m venv .venv
 .venv\Scripts\activate   # (Windows)
 pip install -r requirements.txt
 Start Streamlit app:
 
-bash
-Copy
-Edit
+
 streamlit run main.py
 📌 Notes
 You need Ollama installed locally.
@@ -38,9 +34,7 @@ You need Ollama installed locally.
 The default model is mistral, but you can change it in langchain_helper.py.
 
 💡 Example Output
-diff
-Copy
-Edit
+
 Restaurant Name: Rasoi Royale
 Menu Items:
 - Coconut Shrimp Kebabs
